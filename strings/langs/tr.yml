@@ -135,7 +135,7 @@ cplay_5 : "Yalnızca kanallar desteklenmektedir."
 cplay_6 : "» Bu kanalı bağlamak için <b>kanal sahibi</b> olmalısınız {0}.\n<b>Kanal sahibi:</b> @{1}\n\nAlternatif olarak, grubunuzu o kanala bağlayabilir ve ardından <code>/channelplay linked</code> ile bağlanmayı deneyebilirsiniz."
 cplay_7 : "» Kanal oynatma devre dışı bırakıldı."
 
-play_1 : "🎸"
+play_1 : "🎸𝐆𝖎𝖙𝖆𝖗𝖎𝖘𝖙 𝕸𝖚𝖘𝖎𝖈🎸𝕭𝖚𝖑𝖚𝖞𝖔𝖗."
 play_2 : "<b>➻ Kanal oynatma modu</b>\n\nİşleniyor, lütfen bekleyin...\n\n<b>Bağlantılı kanal:</b> {0}"
 play_3 : "» Sorguyu işlemekte başarısız oldu."
 play_4 : "<b>Yalnızca yöneticiler oynatabilir</b>\nBu sohbetin yöneticileri yalnızca oynatmaya izin verilmektedir.\n\nOynatma modunu değiştirmek için /playmode kullanın."
