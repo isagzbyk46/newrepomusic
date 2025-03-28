@@ -10,7 +10,7 @@ class Hotty(Client):
     def __init__(self):
         LOGGER(__name__).info(f"🎸𝐆𝖎𝖙𝖆𝖗𝖎𝖘𝖙 𝕸𝖚𝖘𝖎𝖈🎸Yayında...")
         super().__init__(
-            name="BrandrdXMusic",
+            name="🎸𝐆𝖎𝖙𝖆𝖗𝖎𝖘𝖙 𝕸𝖚𝖘𝖎𝖈🎸",
             api_id=config.API_ID,
             api_hash=config.API_HASH,
             bot_token=config.BOT_TOKEN,
