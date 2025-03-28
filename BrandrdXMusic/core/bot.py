@@ -8,7 +8,7 @@ from ..logging import LOGGER
 
 class Hotty(Client):
     def __init__(self):
-        LOGGER(__name__).info(f"Starting Bot...")
+        LOGGER(__name__).info(f"🎸𝐆𝖎𝖙𝖆𝖗𝖎𝖘𝖙 𝕸𝖚𝖘𝖎𝖈🎸Yayında...")
         super().__init__(
             name="BrandrdXMusic",
             api_id=config.API_ID,
@@ -46,7 +46,7 @@ class Hotty(Client):
                 "Please promote your bot as an admin in your log group/channel."
             )
 
-        LOGGER(__name__).info(f"Music Bot Started as {self.name}")
+        LOGGER(__name__).info(f"🎸𝐆𝖎𝖙𝖆𝖗𝖎𝖘𝖙 𝕸𝖚𝖘𝖎𝖈🎸Yayında... as {self.name}")
 
     async def stop(self):
         await super().stop()
