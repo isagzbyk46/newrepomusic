@@ -40,12 +40,12 @@ valid_stations = "\n".join([f"`{name}`" for name in sorted(RADIO_STATION.keys())
 
 
 @app.on_message(
-    filters.command(["radioplayforce", "radio", "cradio"])
+    filters.command(["radioplayforce", "radio", "radyo", "cradio"])
     & filters.group
     & ~BANNED_USERS
 )
 async def radio(client, message: Message):
-    msg = await message.reply_text("ᴘʟᴇᴀsᴇ ᴡᴀɪᴛ ᴀ ᴍᴏᴍᴇɴᴛ....")
+    msg = await message.reply_text("Azıcık bekle çalcam....")
     try:
         try:
             userbot = await get_assistant(message.chat.id)
